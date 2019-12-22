@@ -15,21 +15,21 @@ title: Programming
 </section>
 <!-- /page-title -->
 
-<!-- category post -->
+<!-- programmings post -->
 <section>
   <div class="container">
     <div class="row">
       <div class="col-lg-8">
         <div class="row masonry-container pt-5">
-          {% for category in site.programming %}
-          {% capture category_name %}{{ category | first }}{% endcapture %}
-          <div id="#{{ category_name | slugize }}"></div>
-          {% for post in site.programming[category_name] %}
+          {% for programmings in site.programming %}
+          {% capture programmings_name %}{{ programmings | first }}{% endcapture %}
+          <div id="#{{ programmings_name | slugize }}"></div>
+          {% for post in site.programming[programmings_name] %}
           <div class="col-sm-6 mb-5">
-            <a name="{{ category_name | slugize }}"></a>
+            <a name="{{ programmings_name | slugize }}"></a>
             <article class="text-center">
               <img class="img-fluid mb-4" src="{{site.baseurl}}/{{post.image}}" alt="{{post.title}}">
-              <p class="text-uppercase mb-2">{{ category_name }}</p>
+              <p class="text-uppercase mb-2">{{ programmings_name }}</p>
               <h4 class="title-border"><a class="text-dark" href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h4>
               <p>{{ post.content | strip_html | truncatewords: 35 }}</p>
               <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-transparent">read more</a>
@@ -45,4 +45,4 @@ title: Programming
     </div>
   </div>
 </section>
-<!-- /category post -->
+<!-- /programmings post -->
