@@ -1,15 +1,20 @@
 ---
 layout: post
 title: "Hello_World"
-date: 2019-12-22 16:41:10 +00:00
-description: "This is meta description"
+date: 2019-12-22 16:41:10 +09:00
+description: "Hello World"
 featured: true
-image: 
+image: assets/images/masonary-post/hello-world.png
 categories: 
-  - "blog"
+  - "programming"
 tags:
   - "Test"
 ---
 
 
 Hello World
+======
+
+> 첫 포스팅에 오신 것을 환영합니다! :D
+
+![Hello World](assets/images/masonary-post/hello-world.png "Hello World")

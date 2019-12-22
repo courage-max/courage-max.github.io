@@ -1,9 +1,9 @@
 #-------------------------------
 # General Site Settings
 
-title: Courage | Developer Blog
+title: Courage 커리지 | 잡다한 개발 블로그 Developer Blog
 logo: logo.png # You can add own logo
-description: Courage 의 개발 블로그입니다. # Add your awesome description
+description: Courage 의 잡다한 개발 블로그입니다. # Add your awesome description
 baseurl: "" # The subpath of your site, e.g. /blog
 url: "https://courage-max.github.io" # The base hostname & protocol for your site, e.g. http://example.com
 
@@ -17,6 +17,15 @@ menu:
     name: About
   - url: /categories/
     name: Categories
+      submenu:
+        - url: /programming/
+          name: Programming
+      submenu:
+        - url: /healthcare/
+          name: Health Care
+      submenu:
+        - url: /review/
+          name: Review
   - url: /contact/
     name: Contact
 
@@ -46,19 +55,19 @@ hero:
 #-------------------------------
 # Author Settings
 author:
-  name: Yeong
+  name: Courage
 
 #-------------------------------
 # Contact Info
-contact:
+#contact:
   email: seoyeong7.choi@gmail.com
-#  phone: +90 000 333 22
-#  address:
-#    city: Sydney
-#    street: 6 rip carl Avenue CA 90733
+# phone: +90 000 333 22
+# address:
+#   city: Sydney
+#   street: 6 rip carl Avenue CA 90733
 
 # Contact Form
-contact-form: example@ymail.com
+contact-form: seoyeong7.choi@gmail.com
 
 # Social links
 social:
@@ -73,7 +82,7 @@ disqus-identifier: courage # Add your shortname for Disqus Comment. For example 
 
 #-------------------------------
 # Instagram Feed
-instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
+instafeed: false # To enable the instafeed, use the value true. To turn off use the value false.
 userID: 4044026246
 accessToken: 4044026246.1677ed0.8896752506ed4402a0519d23b8f50a17
 
