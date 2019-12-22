@@ -41,7 +41,7 @@ featured-post-slider: true # You can enable or disable the featured-post-slider 
 # Hero Section
 hero:
   hero-subtitle: 개발자 커리지의 블로그입니다!
-  hero-banner: banner-img.png # Add your banner image '/assets/images/'
+  hero-banner: iamcourage.png # Add your banner image '/assets/images/'
 
 #-------------------------------
 # Author Settings

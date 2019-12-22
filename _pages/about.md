@@ -2,7 +2,7 @@
 layout: page
 title: About Me
 permalink: /about/
-image: assets/images/iamcourage.png
+image: iamcourage.png
 ---
 <h3 class="font-weight-light">Hello, I’m <span class="font-weight-bold">Courage</span></h3>
 
