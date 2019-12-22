@@ -17,15 +17,6 @@ menu:
     name: About
   - url: /categories/
     name: Categories
-      submenu:
-        - url: /programming/
-          name: Programming
-      submenu:
-        - url: /healthcare/
-          name: Health Care
-      submenu:
-        - url: /review/
-          name: Review
   - url: /contact/
     name: Contact
 
