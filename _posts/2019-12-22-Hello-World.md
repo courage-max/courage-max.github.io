@@ -17,4 +17,4 @@ Hello World
 
 > 첫 포스팅에 오신 것을 환영합니다! :D
 
-![Hello World](./assets/images/masonary-post/hello-world.jpg "Hello World")
+![Hello World](./assets/images/masonary-post/hello-world.jpg)
